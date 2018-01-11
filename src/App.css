@@ -1,0 +1,28 @@
+.App {
+  display: grid;
+  grid-template-rows: 10% 90% 10%;
+  grid-gap: 5px;
+}
+
+header, footer {
+  background-color: black;
+  color: white;
+  padding-left: 1em;
+}
+
+footer {
+  min-height: 100px;
+  padding-top: 1em;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  
+  grid-gap: 5px;
+}
+
+article {
+  padding: .5em;
+  min-height: 200px;
+  border: 1px solid black;
+}
